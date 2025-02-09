@@ -1,6 +1,5 @@
 #Create and manipulate NumPy arrays . Perform basic operations and indexing on arrays
 import numpy as np
-
 # Creating a NumPy array from user input
 arr = np.array(list(map(int, input("\nEnter space-separated numbers for NumPy array: ").split())))
 print("\nOriginal NumPy Array:", arr)
